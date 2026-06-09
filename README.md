@@ -14,7 +14,7 @@
 ## Items
 *(screenshots here)*
 - 🍡 Mochi Mochi
-- 🍢 Kebab
+- 🍢 Kebab (soon)
 - 🍉 Sliceable Watermelon (soon)
 
 ## How to use
