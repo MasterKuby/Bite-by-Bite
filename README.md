@@ -9,8 +9,6 @@
 ## Features
 - **Realistic Eating:** No more scoffing down entire watermelons in seconds. New food items can be eaten in multiple bites.
 - **Customizable Hunger:** Each bite restores a portion of hunger and saturation.
-- **Multi-Loader Support:** Works on **Fabric**, **Forge**, and **NeoForge**.
-- **Multi-Version Support:** Built for Minecraft **1.20.1** and **1.21.1**.
 
 ### Foods
 *(screenshots here)*
