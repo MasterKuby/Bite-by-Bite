@@ -1,24 +1,35 @@
 # Bite by Bite
 
-*A Minecraft mod that adds foods you can eat in multiple bites!*
+### *A Minecraft Forge mod that adds multi-bite food items with visual progression - watch your food disappear bite by bite!*
 
 [![CurseForge](https://img.shields.io/badge/CurseForge-Download-100010?style=for-the-badge&logo=curseforge)](https://curseforgelinkplaceholder)
 [![Modrinth](https://img.shields.io/badge/Modrinth-Download-00AF5C?style=for-the-badge&logo=modrinth)](https://modrinthlinkplaceholder)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
 ## Features
-- **Realistic Eating:** No more scoffing down entire watermelons in seconds. New food items can be eaten in multiple bites.
-- **Customizable Hunger:** Each bite restores a portion of hunger and saturation.
+- **Multi-bite eating mechanic**: Food items are consumed in multiple bites instead of instantly
+- **Dynamic 3D models**: Items visually change as you eat them, showing remaining portions
+- **Extensible framework**: Easy to add new multi-bite food items
 
-### Foods
+## Items
 *(screenshots here)*
-- 🍉 Sliceable Watermelon
 - 🍡 Mochi Mochi
+- 🍢 Kebab
+- 🍉 Sliceable Watermelon (soon)
+
+## How to use
+1. Install Minecraft Forge for version 1.20.1
+2. Drop the mod JAR into your `mods` folder
+3. Launch Minecraft with Forge profile
 
 ---
 
-## For Developers
-- Lorem Ipsum
+## Technical Details
+- **Base Class**: `MultiBiteFoodItem` - handles bite tracking and model progression
+- **Model System**: Uses Minecraft's item override predicates with custom bite counter
+- **NBT Tags**: Tracks remaining bites in `BitesRemaining` tag
+- **Extensibility**: Create new items by extending `MultiBiteFoodItem`
 
-### Project Structure
-- Lorem Ipsum
+## Requirements
+- Minecraft [1.20.1]
+- Forge [47.4.XX]
