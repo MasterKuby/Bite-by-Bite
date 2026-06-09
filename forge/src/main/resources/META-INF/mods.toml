@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "bite_by_bite"
+version = "${version}"
+displayName = "Bite by Bite"
+authors = "MasterKuby"
+description = '''
+A mod that adds 3D foods that can be eaten in multiple bites.
+'''
+#logoFile = ""
+
+[[dependencies.bite_by_bite]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.bite_by_bite]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.bite_by_bite]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.2.14,)"
+ordering = "AFTER"
+side = "BOTH"
