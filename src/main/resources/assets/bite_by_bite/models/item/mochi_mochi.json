@@ -1,0 +1,23 @@
+{
+    "parent": "item/handheld",
+    "overrides": [
+        {
+            "predicate": {
+                "bites": 0
+            },
+            "model": "bite_by_bite:item/mochi_mochi/mochi_mochi_3"
+        },
+        {
+            "predicate": {
+                "bites": 1
+            },
+            "model": "bite_by_bite:item/mochi_mochi/mochi_mochi_2"
+        },
+        {
+            "predicate": {
+                "bites": 2
+            },
+            "model": "bite_by_bite:item/mochi_mochi/mochi_mochi_1"
+        }
+    ]
+}
