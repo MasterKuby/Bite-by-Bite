@@ -2,9 +2,8 @@
 
 ### *A Minecraft Forge mod that adds multi-bite food items with visual progression - watch your food disappear bite by bite!*
 
-[![CurseForge](https://img.shields.io/badge/CurseForge-Download-100010?style=for-the-badge&logo=curseforge)](https://curseforgelinkplaceholder)
-[![Modrinth](https://img.shields.io/badge/Modrinth-Download-00AF5C?style=for-the-badge&logo=modrinth)](https://modrinthlinkplaceholder)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
+[![Modrinth](https://img.shields.io/badge/Modrinth-Download-00AF5C?style=for-the-badge&logo=modrinth)](https://modrinth.com/mod/bite-by-bite)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](https://github.com/MasterKuby/Bite-by-Bite/blob/mc/forge/1.20.1/LICENSE.txt)
 
 ## Features
 - **Multi-bite eating mechanic**: Food items are consumed in multiple bites instead of instantly
