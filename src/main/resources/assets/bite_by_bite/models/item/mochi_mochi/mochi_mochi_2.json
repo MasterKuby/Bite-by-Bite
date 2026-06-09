@@ -1,11 +1,10 @@
 {
-	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "stick texture",
-		"1": "bottom mochi texture",
-		"2": "middle mochi texture",
-		"particle": "stick texture"
+		"0": "bite_by_bite:item/mochi_mochi/stick_texture",
+		"1": "bite_by_bite:item/mochi_mochi/bottom_mochi_texture",
+		"2": "bite_by_bite:item/mochi_mochi/middle_mochi_texture",
+		"particle": "bite_by_bite:item/mochi_mochi/stick_texture"
 	},
 	"elements": [
 		{
